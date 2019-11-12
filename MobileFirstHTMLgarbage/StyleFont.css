@@ -1,0 +1,83 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+#mobilefirst-text {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+    #mobilefirst-text h2 {
+        color: #789;
+    }
+
+#mobilefirst-img {
+    background-color: #eee;
+    height: 50vh;
+}
+
+.btn {
+    padding: 5px 16px;
+    border: 0.5px #5c5200 solid;
+    display: inline-block;
+    margin: 16px 0 0;
+    border-radius: 50px;
+    text-decoration: dashed;
+    color: #000000;
+}
+
+    .btn:hover {
+        background-image: url(https://i.stack.imgur.com/sySxM.png)
+    }
+
+#header {
+    padding: 10px;
+    background: #5c5200;
+}
+#header2 {
+    
+    padding: 15px;
+    background: #5c5200;
+}
+
+
+.caption {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 8px;
+    margin: auto;
+    color: #fff;
+}
